@@ -12,6 +12,8 @@ Install Visual Studio or Build Tools with the Desktop development with C++ workl
 
 The launcher accepts bootstrap arguments. Use `.\Start-MizuBox.cmd --sample --warp` to run Signal Run with WARP or `.\Run-GpuCheck.ps1` to inspect hardware support.
 
+Run `.\Test-MizuBox.cmd` from PowerShell to build and run the full CTest and Python suites. The test runner uses `build-tests/` and requires Python 3.10 or newer for its Python checks.
+
 This repository contains source, local diagnostics and test fixtures. Game executables, console system images and game assets are supplied separately by the user for optional integration checks.
 
 See the [Windows build guide](docs/BUILD.md), [compatibility notes](docs/COMPATIBILITY.md), and [shader architecture](docs/SHADER_ARCHITECTURE.md).

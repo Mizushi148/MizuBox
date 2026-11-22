@@ -4,6 +4,8 @@ Install MSVC, CMake, Ninja and a recent Windows SDK with Direct3D 12 root signat
 
 For an automatic Release installation and launch, run `.\Start-MizuBox.cmd` from PowerShell or open it from File Explorer. The launcher finds Visual Studio, configures the build in `build-launcher/` and installs the runtime into `bin/`. Subsequent launches use the installed runtime.
 
+Run `.\Test-MizuBox.cmd` to build and run the CTest and Python suites. It uses the separate `build-tests/` directory. CTest prints failures and saves the complete output in `build-tests/Testing/Temporary/LastTest.log`. Python 3.10 or newer is required for the Python tests.
+
 For a manual build with tests, open the x64 Visual Studio developer shell and run these commands from the repository root:
 
 ~~~powershell
