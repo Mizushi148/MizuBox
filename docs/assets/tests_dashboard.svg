@@ -1,0 +1,752 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="1300" viewBox="0 0 1160 1300">
+  <defs>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3fb950"/>
+      <stop offset="60%" stop-color="#2ea043"/>
+      <stop offset="100%" stop-color="#39c5cf"/>
+    </linearGradient>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b121c"/>
+      <stop offset="55%" stop-color="#0f1c19"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="1160" height="1300" rx="12" fill="#0d1117"/>
+  <rect x="24.0" y="22.0" width="5.0" height="30.0" rx="2.5" fill="#3fb950"/>
+  <text x="38.0" y="45.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="start">MizuBox — Test Verification: 100.0%</text>
+  <text x="1136.0" y="42.0" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end">by Mizushi (@Mizushi148) • Pure Direct3D 12 SM 6.6 + DXR Tier 1.1 • D3D12 Debug (0 errors)</text>
+  <rect x="24.0" y="68.0" width="119.5" height="24.0" rx="5.0" fill="#18202c" stroke="#2d3b4f" stroke-width="1.0"/>
+  <rect x="67.0" y="68.0" width="76.5" height="24.0" rx="5.0" fill="#2ea043"/>
+  <rect x="67.0" y="68.0" width="5.0" height="24.0" fill="#2ea043"/>
+  <text x="45.5" y="84.3" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">CTest</text>
+  <text x="105.2" y="84.3" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">42/42 PASS</text>
+  <rect x="153.5" y="68.0" width="113.0" height="24.0" rx="5.0" fill="#18202c" stroke="#2d3b4f" stroke-width="1.0"/>
+  <rect x="203.0" y="68.0" width="63.5" height="24.0" rx="5.0" fill="#107c10"/>
+  <rect x="203.0" y="68.0" width="5.0" height="24.0" fill="#107c10"/>
+  <text x="178.2" y="84.3" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">Python</text>
+  <text x="234.8" y="84.3" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">3/3 PASS</text>
+  <rect x="276.5" y="68.0" width="106.5" height="24.0" rx="5.0" fill="#18202c" stroke="#2d3b4f" stroke-width="1.0"/>
+  <rect x="330.0" y="68.0" width="53.0" height="24.0" rx="5.0" fill="#2f81f7"/>
+  <rect x="330.0" y="68.0" width="5.0" height="24.0" fill="#2f81f7"/>
+  <text x="303.2" y="84.3" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">runtime</text>
+  <text x="356.5" y="84.3" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">13.64 s</text>
+  <rect x="393.0" y="68.0" width="180.0" height="24.0" rx="5.0" fill="#18202c" stroke="#2d3b4f" stroke-width="1.0"/>
+  <rect x="473.0" y="68.0" width="100.0" height="24.0" rx="5.0" fill="#2ea043"/>
+  <rect x="473.0" y="68.0" width="5.0" height="24.0" fill="#2ea043"/>
+  <text x="433.0" y="84.3" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">DXR diff BVH</text>
+  <text x="523.0" y="84.3" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">408/408 (100%)</text>
+  <rect x="583.0" y="68.0" width="138.5" height="24.0" rx="5.0" fill="#18202c" stroke="#2d3b4f" stroke-width="1.0"/>
+  <rect x="635.0" y="68.0" width="86.5" height="24.0" rx="5.0" fill="#1f6feb"/>
+  <rect x="635.0" y="68.0" width="5.0" height="24.0" fill="#1f6feb"/>
+  <text x="609.0" y="84.3" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">exports</text>
+  <text x="678.2" y="84.3" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">378 / 10 DLLs</text>
+  <rect x="731.5" y="68.0" width="134.0" height="24.0" rx="5.0" fill="#18202c" stroke="#2d3b4f" stroke-width="1.0"/>
+  <rect x="809.0" y="68.0" width="56.5" height="24.0" rx="5.0" fill="#107c10"/>
+  <rect x="809.0" y="68.0" width="5.0" height="24.0" fill="#107c10"/>
+  <text x="770.2" y="84.3" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="middle">DX12 Debug</text>
+  <text x="837.2" y="84.3" fill="#ffffff" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">0 errors</text>
+  <rect x="24.0" y="108.0" width="1112.0" height="594.0" rx="10.0" fill="#111722" stroke="#232c3b" stroke-width="1.0"/>
+  <text x="40.0" y="134.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="start">CTest Native Suite: 42 of 42 passing (100.0%) — 13.64 s total</text>
+  <rect x="870.0" y="123.0" width="10.0" height="10.0" rx="2.0" fill="#3fb950"/>
+  <text x="885.0" y="132.0" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start">&lt;0.1s</text>
+  <rect x="942.0" y="123.0" width="10.0" height="10.0" rx="2.0" fill="#2ea043"/>
+  <text x="957.0" y="132.0" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start">0.1-1s GPU</text>
+  <rect x="1014.0" y="123.0" width="10.0" height="10.0" rx="2.0" fill="#1f883d"/>
+  <text x="1029.0" y="132.0" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start">&gt;1s DXC</text>
+  <rect x="1086.0" y="123.0" width="10.0" height="10.0" rx="2.0" fill="#f85149"/>
+  <text x="1101.0" y="132.0" fill="#9fb0c7" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" text-anchor="start">Fail</text>
+  <text x="42.0" y="158.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">Core API (4)</text>
+  <rect x="42.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="52.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">1</text>
+  <rect x="66.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="76.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">2</text>
+  <rect x="42.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="52.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">3</text>
+  <rect x="66.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="76.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">4</text>
+  <text x="146.0" y="158.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">DX12 &amp; Shaders (6)</text>
+  <rect x="146.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="156.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">5</text>
+  <rect x="170.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="180.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">6</text>
+  <rect x="194.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="204.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">7</text>
+  <rect x="146.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="156.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">8</text>
+  <rect x="170.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="180.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">9</text>
+  <rect x="194.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="204.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">10</text>
+  <text x="283.0" y="158.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">Loader &amp; Sys (7)</text>
+  <rect x="283.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="293.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">11</text>
+  <rect x="307.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="317.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">12</text>
+  <rect x="331.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="341.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">13</text>
+  <rect x="355.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="365.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">14</text>
+  <rect x="283.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="293.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">15</text>
+  <rect x="307.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="317.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">16</text>
+  <rect x="331.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="341.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">17</text>
+  <text x="413.0" y="158.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">Waves A-C &amp; 2-5 (8)</text>
+  <rect x="413.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="423.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">18</text>
+  <rect x="437.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="447.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">19</text>
+  <rect x="461.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="471.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">20</text>
+  <rect x="485.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="495.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">21</text>
+  <rect x="413.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="423.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">22</text>
+  <rect x="437.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="447.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">23</text>
+  <rect x="461.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="471.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">24</text>
+  <rect x="485.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="495.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">25</text>
+  <text x="555.0" y="158.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">Waves 6-16 (11)</text>
+  <rect x="555.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="565.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">26</text>
+  <rect x="579.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="589.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">27</text>
+  <rect x="603.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="613.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">28</text>
+  <rect x="627.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="637.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">29</text>
+  <rect x="651.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="661.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">30</text>
+  <rect x="675.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="685.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">31</text>
+  <rect x="555.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="565.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">32</text>
+  <rect x="579.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="589.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">33</text>
+  <rect x="603.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="613.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">34</text>
+  <rect x="627.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="637.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">35</text>
+  <rect x="651.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="661.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">36</text>
+  <text x="733.0" y="158.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">Probes &amp; Sample (6)</text>
+  <rect x="733.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="743.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">37</text>
+  <rect x="757.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="767.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">38</text>
+  <rect x="781.0" y="166.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="791.0" y="180.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">39</text>
+  <rect x="733.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="743.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">40</text>
+  <rect x="757.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#2ea043"/>
+  <text x="767.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">41</text>
+  <rect x="781.0" y="190.0" width="20.0" height="20.0" rx="3.5" fill="#3fb950"/>
+  <text x="791.0" y="204.0" fill="#08120c" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="middle">42</text>
+  <line x1="40.0" y1="252.0" x2="384.0" y2="252.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="232.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="240.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#01</text>
+  <text x="80.0" y="240.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">root_signature</text>
+  <rect x="290.0" y="234.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="234.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="240.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.01s</text>
+  <line x1="40.0" y1="283.0" x2="384.0" y2="283.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="263.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="271.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#02</text>
+  <text x="80.0" y="271.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">xmem</text>
+  <rect x="290.0" y="265.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="265.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="271.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.01s</text>
+  <line x1="40.0" y1="314.0" x2="384.0" y2="314.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="294.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="302.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#03</text>
+  <text x="80.0" y="302.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">xgameruntime</text>
+  <rect x="290.0" y="296.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="296.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="302.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.07s</text>
+  <line x1="40.0" y1="345.0" x2="384.0" y2="345.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="325.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="333.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#04</text>
+  <text x="80.0" y="333.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">gameinput</text>
+  <rect x="290.0" y="327.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="327.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="333.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.02s</text>
+  <line x1="40.0" y1="376.0" x2="384.0" y2="376.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="356.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="364.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#05</text>
+  <text x="80.0" y="364.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">d3d12_xs_proxy</text>
+  <rect x="290.0" y="358.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="358.0" width="20.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="364.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.41s</text>
+  <line x1="40.0" y1="407.0" x2="384.0" y2="407.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="387.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="395.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#06</text>
+  <text x="80.0" y="395.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">shader_pipeline</text>
+  <rect x="290.0" y="389.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="389.0" width="13.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="395.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.26s</text>
+  <line x1="40.0" y1="438.0" x2="384.0" y2="438.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="418.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="426.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#07</text>
+  <text x="80.0" y="426.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">sm66_rdna_runtime</text>
+  <rect x="290.0" y="420.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="420.0" width="18.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="426.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.36s</text>
+  <line x1="40.0" y1="469.0" x2="384.0" y2="469.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="449.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="457.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#08</text>
+  <text x="80.0" y="457.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">xbox_bvh_dxr</text>
+  <rect x="290.0" y="451.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="451.0" width="18.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="457.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.37s</text>
+  <line x1="40.0" y1="500.0" x2="384.0" y2="500.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="480.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="488.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#09</text>
+  <text x="80.0" y="488.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">ffx_upscaler_dx12</text>
+  <rect x="290.0" y="482.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="482.0" width="22.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="488.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.44s</text>
+  <line x1="40.0" y1="531.0" x2="384.0" y2="531.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="511.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="519.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#10</text>
+  <text x="80.0" y="519.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">rdna2_translator</text>
+  <rect x="290.0" y="513.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="513.0" width="24.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="519.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.48s</text>
+  <line x1="40.0" y1="562.0" x2="384.0" y2="562.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="542.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="550.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#11</text>
+  <text x="80.0" y="550.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">pe_loader</text>
+  <rect x="290.0" y="544.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="544.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="550.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.01s</text>
+  <line x1="40.0" y1="593.0" x2="384.0" y2="593.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="573.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="581.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#12</text>
+  <text x="80.0" y="581.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">scarlett_sys_dlls</text>
+  <rect x="290.0" y="575.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="575.0" width="11.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="581.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.23s</text>
+  <line x1="40.0" y1="624.0" x2="384.0" y2="624.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="604.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="612.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#13</text>
+  <text x="80.0" y="612.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">guest_texture_sync</text>
+  <rect x="290.0" y="606.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="606.0" width="22.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="612.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.44s</text>
+  <line x1="40.0" y1="655.0" x2="384.0" y2="655.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="40.0" y="635.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="54.0" y="643.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#14</text>
+  <text x="80.0" y="643.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">zen2_compat</text>
+  <rect x="290.0" y="637.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="290.0" y="637.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="384.0" y="643.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.01s</text>
+  <line x1="406.0" y1="252.0" x2="750.0" y2="252.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="232.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="240.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#15</text>
+  <text x="446.0" y="240.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">gdeflate_xvd</text>
+  <rect x="656.0" y="234.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="234.0" width="27.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="240.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.55s</text>
+  <line x1="406.0" y1="283.0" x2="750.0" y2="283.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="263.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="271.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#16</text>
+  <text x="446.0" y="271.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">offline_xsapi</text>
+  <rect x="656.0" y="265.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="265.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="271.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.02s</text>
+  <line x1="406.0" y1="314.0" x2="750.0" y2="314.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="294.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="302.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#17</text>
+  <text x="446.0" y="302.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">xmem_acphal_audio</text>
+  <rect x="656.0" y="296.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="296.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="302.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.01s</text>
+  <line x1="406.0" y1="345.0" x2="750.0" y2="345.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="325.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="333.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#18</text>
+  <text x="446.0" y="333.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave_a_gdk_core</text>
+  <rect x="656.0" y="327.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="327.0" width="8.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="333.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.17s</text>
+  <line x1="406.0" y1="376.0" x2="750.0" y2="376.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="356.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="364.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#19</text>
+  <text x="446.0" y="364.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave_b_graphics</text>
+  <rect x="656.0" y="358.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="358.0" width="31.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="364.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.62s</text>
+  <line x1="406.0" y1="407.0" x2="750.0" y2="407.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="387.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="395.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#20</text>
+  <text x="446.0" y="395.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave_c_sys_codecs</text>
+  <rect x="656.0" y="389.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="389.0" width="46.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="395.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="700" text-anchor="end">0.92s</text>
+  <line x1="406.0" y1="438.0" x2="750.0" y2="438.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="418.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="426.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#21</text>
+  <text x="446.0" y="426.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">rdna2_optimizer_pso_cache</text>
+  <rect x="656.0" y="420.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="420.0" width="17.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="426.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.35s</text>
+  <line x1="406.0" y1="469.0" x2="750.0" y2="469.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="449.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="457.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#22</text>
+  <text x="446.0" y="457.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">highload_dx12_memory</text>
+  <rect x="656.0" y="451.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="451.0" width="19.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="457.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.38s</text>
+  <line x1="406.0" y1="500.0" x2="750.0" y2="500.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="480.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="488.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#23</text>
+  <text x="446.0" y="488.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">nextgen_audio_video</text>
+  <rect x="656.0" y="482.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="482.0" width="18.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="488.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.36s</text>
+  <line x1="406.0" y1="531.0" x2="750.0" y2="531.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="511.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="519.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#24</text>
+  <text x="446.0" y="519.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">hud_crash_diag_fuzz</text>
+  <rect x="656.0" y="513.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="513.0" width="39.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="519.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.79s</text>
+  <line x1="406.0" y1="562.0" x2="750.0" y2="562.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="542.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="550.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#25</text>
+  <text x="446.0" y="550.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave5_peephole_input</text>
+  <rect x="656.0" y="544.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="544.0" width="20.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="550.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.40s</text>
+  <line x1="406.0" y1="593.0" x2="750.0" y2="593.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="573.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="581.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#26</text>
+  <text x="446.0" y="581.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave6_wave64_xaudio_tls_…</text>
+  <rect x="656.0" y="575.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="575.0" width="29.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="581.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.59s</text>
+  <line x1="406.0" y1="624.0" x2="750.0" y2="624.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="604.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="612.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#27</text>
+  <text x="446.0" y="612.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave7_bcpack_dxr408</text>
+  <rect x="656.0" y="606.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="606.0" width="39.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="612.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.78s</text>
+  <line x1="406.0" y1="655.0" x2="750.0" y2="655.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="406.0" y="635.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="420.0" y="643.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#28</text>
+  <text x="446.0" y="643.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave8_scarlett_e2e_and_p…</text>
+  <rect x="656.0" y="637.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="656.0" y="637.0" width="20.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="750.0" y="643.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.40s</text>
+  <line x1="772.0" y1="252.0" x2="1116.0" y2="252.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="232.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="240.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#29</text>
+  <text x="812.0" y="240.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave9_mesh_opt_fp16</text>
+  <rect x="1022.0" y="234.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="234.0" width="17.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="240.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.34s</text>
+  <line x1="772.0" y1="283.0" x2="1116.0" y2="283.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="263.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="271.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#30</text>
+  <text x="812.0" y="271.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave10_xbox_abi_autobind…</text>
+  <rect x="1022.0" y="265.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="265.0" width="22.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="271.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.44s</text>
+  <line x1="772.0" y1="314.0" x2="1116.0" y2="314.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="294.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="302.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#31</text>
+  <text x="812.0" y="302.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave11_pe_compat_hud_png</text>
+  <rect x="1022.0" y="296.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="296.0" width="16.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="302.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.33s</text>
+  <line x1="772.0" y1="345.0" x2="1116.0" y2="345.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="325.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="333.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#32</text>
+  <text x="812.0" y="333.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave12_golden_render</text>
+  <rect x="1022.0" y="327.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="327.0" width="24.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="333.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.48s</text>
+  <line x1="772.0" y1="376.0" x2="1116.0" y2="376.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="356.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="364.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#33</text>
+  <text x="812.0" y="364.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave13_package_xvd</text>
+  <rect x="1022.0" y="358.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="358.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="364.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.01s</text>
+  <line x1="772.0" y1="407.0" x2="1116.0" y2="407.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="387.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="395.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#34</text>
+  <text x="812.0" y="395.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave14_core_gpu_bcpack_d…</text>
+  <rect x="1022.0" y="389.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="389.0" width="33.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="395.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.67s</text>
+  <line x1="772.0" y1="438.0" x2="1116.0" y2="438.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="418.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="426.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#35</text>
+  <text x="812.0" y="426.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave15_tombox_compat_and…</text>
+  <rect x="1022.0" y="420.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="420.0" width="18.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="426.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.36s</text>
+  <line x1="772.0" y1="469.0" x2="1116.0" y2="469.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="449.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="457.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#36</text>
+  <text x="812.0" y="457.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">wave16_xbox_donors_synth…</text>
+  <rect x="1022.0" y="451.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="451.0" width="18.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="457.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.36s</text>
+  <line x1="772.0" y1="500.0" x2="1116.0" y2="500.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="480.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="488.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#37</text>
+  <text x="812.0" y="488.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">graphics_probe</text>
+  <rect x="1022.0" y="482.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="482.0" width="13.5" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="488.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.27s</text>
+  <line x1="772.0" y1="531.0" x2="1116.0" y2="531.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="511.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="519.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#38</text>
+  <text x="812.0" y="519.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">graphics_probe_standard_…</text>
+  <rect x="1022.0" y="513.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="513.0" width="13.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="519.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.26s</text>
+  <line x1="772.0" y1="562.0" x2="1116.0" y2="562.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="542.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="550.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#39</text>
+  <text x="812.0" y="550.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">graphics_probe_warp</text>
+  <rect x="1022.0" y="544.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="544.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="550.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.05s</text>
+  <line x1="772.0" y1="593.0" x2="1116.0" y2="593.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="573.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="581.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#40</text>
+  <text x="812.0" y="581.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">bootstrap_graphics</text>
+  <rect x="1022.0" y="575.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="575.0" width="14.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="581.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.28s</text>
+  <line x1="772.0" y1="624.0" x2="1116.0" y2="624.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="604.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="612.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#41</text>
+  <text x="812.0" y="612.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">signal_run</text>
+  <rect x="1022.0" y="606.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="606.0" width="14.0" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="612.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.28s</text>
+  <line x1="772.0" y1="655.0" x2="1116.0" y2="655.0" stroke="#232c3b" stroke-width="0.6" stroke-opacity="0.55"/>
+  <rect x="772.0" y="635.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="786.0" y="643.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">#42</text>
+  <text x="812.0" y="643.0" fill="#f0f6fc" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">signal_run_warp</text>
+  <rect x="1022.0" y="637.0" width="46.0" height="4.5" rx="2.0" fill="#1b2330"/>
+  <rect x="1022.0" y="637.0" width="3.7" height="4.5" rx="2.0" fill="#3fb950"/>
+  <text x="1116.0" y="643.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">0.05s</text>
+  <rect x="24.0" y="718.0" width="548.0" height="266.0" rx="10.0" fill="#111722" stroke="#232c3b" stroke-width="1.0"/>
+  <text x="40.0" y="744.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">408-Ray DXR Diff BVH: 408 / 408 (100%)</text>
+  <text x="556.0" y="744.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">|dt|&lt;=1.91e-6 • 1 tile = 2 rays</text>
+  <text x="40.0" y="766.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="start">Primary Grid 128</text>
+  <rect x="40.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="54.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="69.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="83.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="98.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="112.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="127.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="141.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="40.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="54.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="69.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="83.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="98.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="112.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="127.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="141.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="40.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="54.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="69.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="83.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="98.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="112.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="127.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="141.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="40.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="54.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="69.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="83.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="98.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="112.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="127.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="141.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="40.0" y="832.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="54.5" y="832.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="69.0" y="832.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="83.5" y="832.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="98.0" y="832.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="112.5" y="832.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="127.0" y="832.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="141.5" y="832.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="40.0" y="846.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="54.5" y="846.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="69.0" y="846.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="83.5" y="846.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="98.0" y="846.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="112.5" y="846.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="127.0" y="846.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="141.5" y="846.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="40.0" y="861.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="54.5" y="861.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="69.0" y="861.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="83.5" y="861.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="98.0" y="861.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="112.5" y="861.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="127.0" y="861.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="141.5" y="861.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="40.0" y="875.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="54.5" y="875.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="69.0" y="875.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="83.5" y="875.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="98.0" y="875.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="112.5" y="875.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="127.0" y="875.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="141.5" y="875.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <text x="184.0" y="766.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="start">Inst Masks 64</text>
+  <rect x="184.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="198.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="213.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="227.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="242.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="256.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="271.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="285.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="184.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="198.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="213.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="227.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="242.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="256.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="271.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="285.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="184.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="198.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="213.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="227.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="242.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="256.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="271.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="285.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="184.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="198.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="213.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="227.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="242.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="256.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="271.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="285.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <text x="184.0" y="872.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="start">Oblique/tMin 64</text>
+  <rect x="184.0" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="198.5" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="213.0" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="227.5" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="242.0" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="256.5" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="271.0" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="285.5" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="184.0" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="198.5" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="213.0" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="227.5" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="242.0" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="256.5" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="271.0" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="285.5" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="184.0" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="198.5" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="213.0" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="227.5" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="242.0" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="256.5" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="271.0" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="285.5" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="184.0" y="923.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="198.5" y="923.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="213.0" y="923.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="227.5" y="923.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="242.0" y="923.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="256.5" y="923.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="271.0" y="923.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="285.5" y="923.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <text x="328.0" y="766.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="start">Backface 56</text>
+  <rect x="328.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="342.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="357.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="371.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="386.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="400.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="415.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="328.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="342.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="357.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="371.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="386.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="400.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="415.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="328.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="342.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="357.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="371.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="386.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="400.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="415.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="328.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="342.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="357.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="371.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="386.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="400.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="415.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <text x="328.0" y="872.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="start">CLONE BLAS 48</text>
+  <rect x="328.0" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="342.5" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="357.0" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="371.5" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="386.0" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="400.5" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="415.0" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="429.5" y="880.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="328.0" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="342.5" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="357.0" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="371.5" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="386.0" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="400.5" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="415.0" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="429.5" y="894.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="328.0" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="342.5" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="357.0" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="371.5" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="386.0" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="400.5" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="415.0" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="429.5" y="909.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <text x="448.0" y="766.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="9" font-weight="700" text-anchor="start">Dynamic Refit 48</text>
+  <rect x="448.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="462.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="477.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="491.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="506.0" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="520.5" y="774.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="448.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="462.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="477.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="491.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="506.0" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="520.5" y="788.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="448.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="462.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="477.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="491.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="506.0" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="520.5" y="803.0" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="448.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="462.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="477.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="491.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="506.0" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="520.5" y="817.5" width="12.0" height="12.0" rx="2.0" fill="#3fb950"/>
+  <rect x="588.0" y="718.0" width="548.0" height="266.0" rx="10.0" fill="#111722" stroke="#232c3b" stroke-width="1.0"/>
+  <text x="604.0" y="744.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">End-to-End Hardware &amp; Clean-Room Verification</text>
+  <text x="1120.0" y="744.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">All suites 100% PASS • 0 DX12 errors</text>
+  <rect x="604.0" y="767.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="620.0" y="776.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">CTest Native Suite (Waves 1–16 + Probes)</text>
+  <rect x="960.0" y="769.0" width="74.0" height="5.0" rx="2.5" fill="#3fb950"/>
+  <text x="1120.0" y="776.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="end">42/42 PASS</text>
+  <rect x="604.0" y="792.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="620.0" y="801.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Python Tooling &amp; Launcher Unit Tests</text>
+  <rect x="960.0" y="794.0" width="74.0" height="5.0" rx="2.5" fill="#3fb950"/>
+  <text x="1120.0" y="801.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="end">3/3 PASS</text>
+  <rect x="604.0" y="817.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="620.0" y="826.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">10-DLL In-Process PE64 E2E + .tls + Heap</text>
+  <rect x="960.0" y="819.0" width="74.0" height="5.0" rx="2.5" fill="#3fb950"/>
+  <text x="1120.0" y="826.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="end">10/10 DLLs</text>
+  <rect x="604.0" y="842.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="620.0" y="851.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Golden Render (RDNA2 MS + FSR 4.1 + HUD)</text>
+  <rect x="960.0" y="844.0" width="74.0" height="5.0" rx="2.5" fill="#3fb950"/>
+  <text x="1120.0" y="851.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="end">100% EXACT</text>
+  <rect x="604.0" y="867.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="620.0" y="876.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Adversarial Fuzzer (RDNA2/DXBC/GDeflate/XVD)</text>
+  <rect x="960.0" y="869.0" width="74.0" height="5.0" rx="2.5" fill="#3fb950"/>
+  <text x="1120.0" y="876.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="end">600/600 OK</text>
+  <rect x="604.0" y="892.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="620.0" y="901.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Title Shaders Audited &amp; DXC/PSO Stress</text>
+  <rect x="960.0" y="894.0" width="74.0" height="5.0" rx="2.5" fill="#3fb950"/>
+  <text x="1120.0" y="901.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="end">150/150 PSO</text>
+  <rect x="604.0" y="917.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="620.0" y="926.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Zen 2 #UD VEH Emulation (CLZERO/SSE4a)</text>
+  <rect x="960.0" y="919.0" width="74.0" height="5.0" rx="2.5" fill="#3fb950"/>
+  <text x="1120.0" y="926.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="end">10/10 ops</text>
+  <rect x="604.0" y="942.0" width="8.0" height="8.0" rx="2.0" fill="#3fb950"/>
+  <text x="620.0" y="951.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Wave64 + Native FP16 VOP3P on RTX GPU</text>
+  <rect x="960.0" y="944.0" width="74.0" height="5.0" rx="2.5" fill="#3fb950"/>
+  <text x="1120.0" y="951.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="end">64/64 lanes</text>
+  <rect x="24.0" y="1000.0" width="1112.0" height="200.0" rx="10.0" fill="#111722" stroke="#232c3b" stroke-width="1.0"/>
+  <text x="40.0" y="1026.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="start">Execution Runtime Profile &amp; 10-DLL End-to-End Coverage</text>
+  <text x="1120.0" y="1026.0" fill="#73839b" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="end">11 fast (&lt;0.1s) • 31 GPU/E2E (0.1-1s) • 0 heavy (&gt;1s)</text>
+  <rect x="40.0" y="1042.0" width="46.0" height="20.0" rx="4.0" fill="#3fb950"/>
+  <text x="64.0" y="1056.0" fill="#06120a" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="700" text-anchor="middle">0.27s</text>
+  <rect x="88.0" y="1042.0" width="1030.0" height="20.0" rx="4.0" fill="#2ea043"/>
+  <text x="604.0" y="1056.0" fill="#06120a" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="700" text-anchor="middle">Live DX12 / DXR / FSR4 / Audio: 13.37s (98%)</text>
+  <rect x="40.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="40.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="90.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">xgameruntime</text>
+  <text x="90.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">221 exp</text>
+  <text x="90.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="149.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="149.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="199.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">d3d12_xs</text>
+  <text x="199.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">56 exp</text>
+  <text x="199.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="258.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="258.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="308.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">AcpHal</text>
+  <text x="308.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">29 exp</text>
+  <text x="308.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="367.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="367.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="417.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">xmem</text>
+  <text x="417.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">24 exp</text>
+  <text x="417.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="476.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="476.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="526.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">XboxBvh</text>
+  <text x="526.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">13 exp</text>
+  <text x="526.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="585.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="585.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="635.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">dstorage_xs</text>
+  <text x="635.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">10 exp</text>
+  <text x="635.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="694.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="694.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="744.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">xg_xs</text>
+  <text x="744.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">9 exp</text>
+  <text x="744.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="803.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="803.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="853.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">XAudio2_9</text>
+  <text x="853.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">7 exp</text>
+  <text x="853.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="912.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="912.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="962.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">ffx_upscaler</text>
+  <text x="962.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">6 exp</text>
+  <text x="962.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="1021.0" y="1084.0" width="100.0" height="88.0" rx="7.0" fill="#12291c" stroke="#2ea043" stroke-width="1.2"/>
+  <rect x="1021.0" y="1084.0" width="100.0" height="4.0" rx="2.0" fill="#3fb950"/>
+  <text x="1071.0" y="1112.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">GameInput</text>
+  <text x="1071.0" y="1134.0" fill="#7ee787" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="11" font-weight="700" text-anchor="middle">3 exp</text>
+  <text x="1071.0" y="1156.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="8" font-weight="400" text-anchor="middle">UNIT+GPU+E2E</text>
+  <rect x="24.0" y="1216.0" width="1112.0" height="68.0" rx="10.0" fill="#0e1b14" stroke="#2ea043" stroke-width="1.0"/>
+  <rect x="24.0" y="1226.0" width="4.0" height="48.0" rx="2.0" fill="#3fb950"/>
+  <text x="42.0" y="1243.0" fill="#7ee787" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">Verified Clean-Room Build &amp; Test Suite:</text>
+  <text x="304.0" y="1243.0" fill="#f0f6fc" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" text-anchor="start">Windows x64 • Pure Direct3D 12 (SM 6.6 + DXR Tier 1.1) • 42/42 CTests (13.64s) + 3/3 Python Tests</text>
+  <text x="42.0" y="1266.0" fill="#9fb0c7" font-family="Consolas, 'Cascadia Mono', 'Courier New', monospace" font-size="10" font-weight="400" text-anchor="start">MizuBox by Mizushi (@Mizushi148) • Fork of AnyXboxSeries by edupode (CPAL-1.0) • Regenerate via MizuBoxGit\MizuBox-Git-Tool.cmd • 2026-11-23</text>
+</svg>
