@@ -1,14 +1,16 @@
 # Build on Windows
 
-Install MSVC, CMake, Ninja and a recent Windows SDK with Direct3D 12 root signature 1.2 headers. Use the x64 Visual Studio developer shell. The SDK's DirectX Shader Compiler provides `dxcompiler.dll` and `dxil.dll` for runtime shader translation.
+Install MSVC, CMake, Ninja and a recent Windows SDK with Direct3D 12 root signature 1.2 headers. The SDK's DirectX Shader Compiler provides `dxcompiler.dll` and `dxil.dll` for runtime shader translation.
 
-From the repository root:
+For an automatic Release installation and launch, run `.\Start-MizuBox.cmd` from PowerShell or open it from File Explorer. The launcher finds Visual Studio, configures the build in `build-launcher/` and installs the runtime into `bin/`. Subsequent launches use the installed runtime.
+
+For a manual build with tests, open the x64 Visual Studio developer shell and run these commands from the repository root:
 
 ~~~powershell
 cmake -S native -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ctest --test-dir build --output-on-failure
-cmake --install build --prefix .
+cmake --install build --prefix . --component Runtime
 .\Start-MizuBox.cmd
 ~~~
 

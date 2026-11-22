@@ -69,7 +69,7 @@ add_executable(wsx_package_tool package_tool_main.cpp)
 target_include_directories(wsx_package_tool BEFORE PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include/xbox")
 target_link_libraries(wsx_package_tool PRIVATE d3d12_xs d3d12 dxgi bcrypt)
 install(TARGETS d3d12_xs xmem xgameruntime GameInput XboxBvhBuilder amd_fidelityfx_upscaler_xbox xg_xs dstorage_xs AcpHal XAudio2_9 wsx_graphics_probe wsx_dll_probe wsx_gta6_dll_suite wsx_rdna2_audit wsx_gpu_check wsx_package_tool wsx_bootstrap wsx_boot_graphics wsx_sample_game
-        RUNTIME DESTINATION bin)
+        RUNTIME DESTINATION bin COMPONENT Runtime)
 install(FILES "${CMAKE_CURRENT_SOURCE_DIR}/../Start-MizuBox.cmd" "${CMAKE_CURRENT_SOURCE_DIR}/../Start-SignalRun.cmd" "${CMAKE_CURRENT_SOURCE_DIR}/../Run-GpuCheck.ps1" "${CMAKE_CURRENT_SOURCE_DIR}/../wsx_setup.ps1" "${CMAKE_CURRENT_SOURCE_DIR}/../wsx.ini" DESTINATION .)
 
 include(CTest)

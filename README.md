@@ -6,17 +6,11 @@ The included Signal Run sample exercises the native runtime. The test suite cove
 
 ## Build and run
 
-From an x64 Visual Studio developer shell with MSVC, the Windows SDK, CMake and Ninja installed:
+Open `Start-MizuBox.cmd` from File Explorer or run `.\Start-MizuBox.cmd` in PowerShell. On first run it finds the installed Visual Studio toolchain, builds and installs the Release runtime, and opens Signal Run. Later runs use the installed binaries.
 
-~~~powershell
-cmake -S native -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
-cmake --build build
-ctest --test-dir build --output-on-failure
-cmake --install build --prefix .
-.\Start-MizuBox.cmd
-~~~
+Install Visual Studio or Build Tools with the Desktop development with C++ workload, a recent Windows SDK, CMake and Ninja. The launcher can use the CMake and Ninja bundled with Visual Studio.
 
-The launcher opens Signal Run by default and accepts bootstrap arguments. Use `Start-MizuBox.cmd --sample --warp` to run the sample with WARP or `Run-GpuCheck.ps1` to inspect hardware support.
+The launcher accepts bootstrap arguments. Use `.\Start-MizuBox.cmd --sample --warp` to run Signal Run with WARP or `.\Run-GpuCheck.ps1` to inspect hardware support.
 
 This repository contains source, local diagnostics and test fixtures. Game executables, console system images and game assets are supplied separately by the user for optional integration checks.
 
