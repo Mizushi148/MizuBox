@@ -1,0 +1,15 @@
+; Copyright (c) 2026 edupode (Original AnyXboxSeries) and local contributors
+; SPDX-License-Identifier: CPAL-1.0
+;
+; Commercial Xbox Series X|S titles (Unity, Unreal, Wwise, Bink2) frequently import
+; XAudio2Create from XAudio2_9.dll by ordinal #1.
+
+LIBRARY XAudio2_9
+EXPORTS
+    XAudio2Create                = WsxExport_XAudio2Create                @1
+    CreateAudioVolumeMeter       = WsxExport_CreateAudioVolumeMeter       @2
+    CreateAudioReverb            = WsxExport_CreateAudioReverb            @3
+    CreateFX                     = WsxExport_CreateFX                     @4
+    XAudio2CreateWithVersionInfo = WsxExport_XAudio2CreateWithVersionInfo @5
+    WsxXAudio2GetStats
+    WsxXAudio2SetForceFallback

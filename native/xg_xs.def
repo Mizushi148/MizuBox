@@ -1,0 +1,11 @@
+LIBRARY xg_xs
+EXPORTS
+    XGCreateTexture1DComputer
+    XGCreateTexture2DComputer
+    XGCreateTexture3DComputer
+    XGCreateBufferComputer
+    XGComputeOptimalSwizzleMode
+    XGComputeOptimalTileMode
+    XGGetFormatBitsPerPixel
+    XGIsBlockCompressedFormat
+    XGGetSwizzleModeString

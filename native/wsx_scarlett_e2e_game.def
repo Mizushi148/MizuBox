@@ -1,0 +1,3 @@
+LIBRARY wsx_scarlett_e2e_game
+EXPORTS
+    wsx_run_scarlett_e2e_game

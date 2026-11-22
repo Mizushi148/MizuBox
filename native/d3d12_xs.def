@@ -1,0 +1,61 @@
+; Copyright (c) 2026 edupode
+; SPDX-License-Identifier: CPAL-1.0
+
+LIBRARY d3d12_xs
+EXPORTS
+    D3D12CreateRootSignatureDeserializer = WsxCreateRootSignatureDeserializer
+    D3D12SerializeVersionedRootSignature = WsxSerializeVersionedRootSignature
+    D3D12XboxCreateDevice
+    D3D12XboxQueryInterface
+    D3D12XboxCreateCommittedResource
+    D3D12XboxSetFrameIntervalX
+    D3D12XboxScheduleFrameEventX
+    D3D12XboxWaitFrameEventX
+    D3D12XboxPresentX
+    D3D12XboxSuspendCommandQueueX
+    D3D12XboxResumeCommandQueueX
+    D3D12XboxGetXboxAbiDevice
+    D3D12XboxWrapCommandListForXboxAbi
+    D3D12XboxGetAbiTelemetry
+    D3D12XboxInspectShaderBytecode
+    D3D12XboxUnpackShaderFssm
+    D3D12XboxRegisterShaderTranslator
+    D3D12XboxGetGraphicsBackend
+    D3D12XboxCheckSm66Support
+    D3D12XboxCreateSm66RootSignature
+    D3D12XboxGetSm66HlslPreamble
+    D3D12XboxCompileHlslToDxil
+    D3D12XboxTranslateFssmToHlslSm66
+    D3D12XboxTranslateDxbcFssmToDxil
+    D3D12XboxSetGuestTextureSwizzleMode
+    D3D12XboxFlushGuestTextures
+    D3D12XboxGetGuestTextureSyncStats
+    D3D12XboxReadbackGuestTexture
+    D3D12XboxRegisterFrameEventX
+    D3D12XboxFlushPsoCache
+    D3D12XboxGetPsoCacheStats
+    D3D12XboxQueryVramBudget
+    D3D12XboxEnqueueAsyncShaderCompile
+    D3D12XboxDrainAsyncShaderQueue
+    D3D12XboxGetHighloadPipelineStats
+    D3D12XboxTrimStagingMemory
+    D3D12XboxSetHudEnabled
+    D3D12XboxRenderDebugHud
+    D3D12XboxCaptureGpuDredReport
+    D3D12XboxWriteCrashReport
+    D3D12XboxToggleBorderlessFullscreen
+    D3D12XboxResizeSwapChain
+    D3D12XboxGetWindowDisplayStats
+    D3D12XboxConfigureFramePacing
+    D3D12XboxGetFramePacingStats
+    D3D12XboxGetExtendedAbiStats
+    D3D12XboxCaptureBackbufferPng
+    D3D12XboxSetProcessDebugFlags
+    D3D12XboxGetProcessDebugFlags
+    D3D12ConfigureVirtualMemoryX
+    D3D12XboxOpenExistingHeapAlias
+    D3D12XboxUnpackAllShaderFssm
+    D3D12XboxRetargetDxilTriple
+    D3D12XboxRemapThreadAffinityMask
+    MFResetDXGIDeviceManagerX
+    D3DMapEsramMemory

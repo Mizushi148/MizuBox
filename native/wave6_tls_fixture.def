@@ -1,0 +1,3 @@
+LIBRARY wsx_wave6_tls_fixture
+EXPORTS
+    run_tls_and_atexit_test

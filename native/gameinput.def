@@ -1,0 +1,8 @@
+; Copyright (c) 2026 edupode (Original AnyXboxSeries) and local contributors
+; SPDX-License-Identifier: CPAL-1.0
+
+LIBRARY GameInput
+EXPORTS
+    GameInputCreate   @1
+    DllCanUnloadNow   @2 PRIVATE
+    DllGetClassObject @3 PRIVATE

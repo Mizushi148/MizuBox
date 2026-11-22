@@ -1,0 +1,3 @@
+EXPORTS
+    wsx_fixture_run_checks
+    wsx_fixture_ordinal_fn @7

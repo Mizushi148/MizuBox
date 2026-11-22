@@ -1,0 +1,3 @@
+LIBRARY wsx_wave11_compat_fixture
+EXPORTS
+    wsx_run_wave11_compat_fixture

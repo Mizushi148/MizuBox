@@ -1,0 +1,29 @@
+; Copyright (c) 2026 edupode (Original AnyXboxSeries) and local contributors
+; SPDX-License-Identifier: CPAL-1.0
+
+LIBRARY xmem
+EXPORTS
+    XMemAlloc                    = WsxXMemAlloc
+    XMemFree                     = WsxXMemFree
+    XMemAllocDefault             = WsxXMemAllocDefault
+    XMemFreeDefault              = WsxXMemFreeDefault
+    XMemSize                     = WsxXMemSize
+    XMemSizeDefault              = WsxXMemSizeDefault
+    XMemSetAllocationHooks       = WsxXMemSetAllocationHooks
+    XMemVirtualQuery             = WsxXMemVirtualQuery
+    XMemGetWorkingSetStatistics  = WsxXMemGetWorkingSetStatistics
+    XMemProtect                  = WsxXMemProtect
+    XMemMapPhysical              = WsxXMemMapPhysical
+    XMemUnmapPhysical            = WsxXMemUnmapPhysical
+    XMemGetPhysicalAddress       = WsxXMemGetPhysicalAddress
+    XMemFlushCache               = WsxXMemFlushCache
+    XMemGetAllocationStatistics  = WsxXMemGetAllocationStatistics
+    XMemTrimPools                = WsxXMemTrimPools
+    XMemGetPoolStatistics        = WsxXMemGetPoolStatistics
+    XMemGetWin32HeapStatistics   = WsxXMemGetWin32HeapStatistics
+    XMemFreePhysicalPages        = WsxXMemFreePhysicalPages
+    XMemTransferMemory           = WsxXMemTransferMemory
+    XMemDecodeAttributes         = WsxXMemDecodeAttributes
+    XMemRegisterGpuAlias         = WsxXMemRegisterGpuAlias
+    XMemUnregisterGpuAlias       = WsxXMemUnregisterGpuAlias
+    XMemTranslateTitleGpuVa      = WsxXMemTranslateTitleGpuVa

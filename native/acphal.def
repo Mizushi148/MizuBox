@@ -1,0 +1,34 @@
+; Copyright (c) 2026 edupode (Original AnyXboxSeries) and local contributors
+; SPDX-License-Identifier: CPAL-1.0
+
+LIBRARY AcpHal
+EXPORTS
+    ApuCreateHeap
+    ApuAlloc
+    ApuFree
+    ApuMapVirtualAddress
+    ApuMapApuAddress
+    ApuIsVirtualAddressValid
+    ApuHeapGetState
+    AcpHalCreate
+    AcpHalAllocateShapeContexts
+    AcpHalReleaseShapeContexts
+    AcpHalEncodeImaAdpcm
+    AcpHalDecodeImaAdpcm
+    AcpHalMixVoices
+    AcpHalOpenAudioOutput
+    AcpHalSubmitAudioOutput
+    AcpHalCloseAudioOutput
+    AcpHalResampleLinear
+    AcpHalApplyBiquadFilter
+    AcpHalDecodeImaAdpcmMultichannel
+    AcpHalDecodeMsAdpcm
+    AcpHalProcessSpatialVoice
+    AcpHalCreateReverb
+    AcpHalApplyReverb
+    AcpHalDestroyReverb
+    AcpHalResampleCubic
+    AcpHalApplySoftLimiter
+    AcpHalDownmixToStereo
+    AcpHalGetAudioOutputStats
+    AcpHalFlushAsyncCommands

@@ -1,0 +1,51 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 23,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "vs-ninja-release",
+      "displayName": "Windows x64 Release (Ninja + MSVC)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/.."
+      }
+    },
+    {
+      "name": "vs-ninja-debug",
+      "displayName": "Windows x64 Debug (Ninja + MSVC)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/.."
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "vs-ninja-release",
+      "configurePreset": "vs-ninja-release",
+      "jobs": 8
+    },
+    {
+      "name": "vs-ninja-debug",
+      "configurePreset": "vs-ninja-debug",
+      "jobs": 8
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "vs-ninja-release",
+      "configurePreset": "vs-ninja-release",
+      "output": {
+        "outputOnFailure": true
+      }
+    }
+  ]
+}

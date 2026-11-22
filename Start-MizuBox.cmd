@@ -1,0 +1,15 @@
+@rem Copyright (c) 2026 Mizushi and local contributors
+@rem SPDX-License-Identifier: CPAL-1.0
+@echo off
+setlocal
+set "WSX_BOOTSTRAP=%~dp0bin\wsx_bootstrap.exe"
+if not exist "%WSX_BOOTSTRAP%" (
+    echo MizuBox bootstrap not found. Build and install MizuBox first.
+    exit /b 1
+)
+if "%~1"=="" (
+    call "%~dp0Start-SignalRun.cmd"
+    exit /b
+)
+"%WSX_BOOTSTRAP%" %*
+exit /b %ERRORLEVEL%

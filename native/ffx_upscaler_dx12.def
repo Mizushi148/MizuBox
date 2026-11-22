@@ -1,0 +1,8 @@
+LIBRARY amd_fidelityfx_upscaler_xbox
+EXPORTS
+    ffxConfigure
+    ffxCreateContext
+    ffxDestroyContext
+    ffxDispatch
+    ffxQuery
+    WsxFfxUpscalerGetStats

@@ -1,0 +1,15 @@
+; Copyright (c) 2026 edupode (Original AnyXboxSeries) and local contributors
+; SPDX-License-Identifier: CPAL-1.0
+
+LIBRARY dstorage_xs
+EXPORTS
+    DStorageGetFactory
+    DStorageCreateFactory
+    DStorageSetConfiguration
+    DStorageSetConfiguration1
+    DStorageOpenXvdVolume
+    DStorageDecompressGDeflate
+    DStorageDecompressGDeflateGpu
+    DStorageCompressBCPack
+    DStorageDecompressBCPack
+    DStorageDecompressBCPackGpu
